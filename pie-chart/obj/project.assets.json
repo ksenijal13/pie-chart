@@ -1,0 +1,385 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SkiaSharp/3.0.0-preview.2.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "3.0.0-preview.2.1",
+          "SkiaSharp.NativeAssets.macOS": "3.0.0-preview.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/3.0.0-preview.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/3.0.0-preview.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SkiaSharp.Views/3.0.0-preview.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net462/_._": {}
+        },
+        "runtime": {
+          "lib/net462/_._": {}
+        },
+        "build": {
+          "buildTransitive/net462/SkiaSharp.Views.targets": {}
+        }
+      },
+      "System.Drawing.Common/9.0.0-preview.1.24081.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "SkiaSharp/3.0.0-preview.2.1": {
+      "sha512": "6n+0t0p/nYMZqVv6hsZRv9R/sCZv6ELclRvGZ8MW6lm5WkAwG+Dtf9IfE6KZYtNp9FyXfLUjPl97dzuO8thMUw==",
+      "type": "package",
+      "path": "skiasharp/3.0.0-preview.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "interactive-extensions/dotnet/SkiaSharp.DotNet.Interactive.dll",
+        "lib/net462/SkiaSharp.dll",
+        "lib/net462/SkiaSharp.pdb",
+        "lib/net7.0-android33.0/SkiaSharp.dll",
+        "lib/net7.0-android33.0/SkiaSharp.pdb",
+        "lib/net7.0-android33.0/SkiaSharp.xml",
+        "lib/net7.0-ios16.1/SkiaSharp.dll",
+        "lib/net7.0-ios16.1/SkiaSharp.pdb",
+        "lib/net7.0-maccatalyst16.1/SkiaSharp.dll",
+        "lib/net7.0-maccatalyst16.1/SkiaSharp.pdb",
+        "lib/net7.0-macos13.0/SkiaSharp.dll",
+        "lib/net7.0-macos13.0/SkiaSharp.pdb",
+        "lib/net7.0-tizen7.0/SkiaSharp.dll",
+        "lib/net7.0-tizen7.0/SkiaSharp.pdb",
+        "lib/net7.0-tvos16.1/SkiaSharp.dll",
+        "lib/net7.0-tvos16.1/SkiaSharp.pdb",
+        "lib/net7.0-windows10.0.19041/SkiaSharp.dll",
+        "lib/net7.0-windows10.0.19041/SkiaSharp.pdb",
+        "lib/net7.0/SkiaSharp.dll",
+        "lib/net7.0/SkiaSharp.pdb",
+        "lib/netstandard2.0/SkiaSharp.dll",
+        "lib/netstandard2.0/SkiaSharp.pdb",
+        "lib/netstandard2.1/SkiaSharp.dll",
+        "lib/netstandard2.1/SkiaSharp.pdb",
+        "skiasharp.3.0.0-preview.2.1.nupkg.sha512",
+        "skiasharp.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.macOS/3.0.0-preview.2.1": {
+      "sha512": "Kq7mbxLtlE/ElIBPrrnsfKFV0uDQX3Mrj5ea615ZzhCjzBMfawLs4fYF7B0qCG9DI6D070KuU/qc/JMX2okjbg==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.macos/3.0.0-preview.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "buildTransitive/net462/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net7.0-macos13.0/SkiaSharp.NativeAssets.macOS.targets",
+        "icon.png",
+        "lib/net462/_._",
+        "lib/net7.0-macos13.0/_._",
+        "lib/net7.0/_._",
+        "lib/netstandard2.0/_._",
+        "lib/netstandard2.1/_._",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "skiasharp.nativeassets.macos.3.0.0-preview.2.1.nupkg.sha512",
+        "skiasharp.nativeassets.macos.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.Win32/3.0.0-preview.2.1": {
+      "sha512": "C7sgmY7P/VeLXyli81mCd5DA8O5cGAsSgD/y0CqTS0OTpqMcUBh5TCAMdG1eDgwG71zeBjPJK4upc0/WNoYjcw==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.win32/3.0.0-preview.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "buildTransitive/net462/SkiaSharp.NativeAssets.Win32.targets",
+        "icon.png",
+        "lib/net462/_._",
+        "lib/net7.0-windows10.0.19041/_._",
+        "lib/net7.0/_._",
+        "lib/netstandard2.0/_._",
+        "lib/netstandard2.1/_._",
+        "runtimes/win-arm64/native/libSkiaSharp.dll",
+        "runtimes/win-x64/native/libSkiaSharp.dll",
+        "runtimes/win-x86/native/libSkiaSharp.dll",
+        "skiasharp.nativeassets.win32.3.0.0-preview.2.1.nupkg.sha512",
+        "skiasharp.nativeassets.win32.nuspec"
+      ]
+    },
+    "SkiaSharp.Views/3.0.0-preview.2.1": {
+      "sha512": "+6fdh3jcXXOG01DDQAUiAqY2C3Tp6KWpWOAo8NnSN4eQ+ZfxjrRW1mbE99/E3lnhHbuFfxdDFgUFO/r0iAS6OA==",
+      "type": "package",
+      "path": "skiasharp.views/3.0.0-preview.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "buildTransitive/net462/SkiaSharp.Views.targets",
+        "buildTransitive/net7.0-windows10.0.19041/SkiaSharp.Views.targets",
+        "icon.png",
+        "lib/net462/_._",
+        "lib/net7.0-android33.0/SkiaSharp.Views.Android.aar",
+        "lib/net7.0-android33.0/SkiaSharp.Views.Android.dll",
+        "lib/net7.0-android33.0/SkiaSharp.Views.Android.pdb",
+        "lib/net7.0-android33.0/SkiaSharp.Views.Android.xml",
+        "lib/net7.0-ios16.1/SkiaSharp.Views.iOS.dll",
+        "lib/net7.0-ios16.1/SkiaSharp.Views.iOS.pdb",
+        "lib/net7.0-maccatalyst16.1/SkiaSharp.Views.iOS.dll",
+        "lib/net7.0-maccatalyst16.1/SkiaSharp.Views.iOS.pdb",
+        "lib/net7.0-macos13.0/SkiaSharp.Views.Mac.dll",
+        "lib/net7.0-macos13.0/SkiaSharp.Views.Mac.pdb",
+        "lib/net7.0-tizen7.0/SkiaSharp.Views.Tizen.dll",
+        "lib/net7.0-tizen7.0/SkiaSharp.Views.Tizen.pdb",
+        "lib/net7.0-tvos16.1/SkiaSharp.Views.tvOS.dll",
+        "lib/net7.0-tvos16.1/SkiaSharp.Views.tvOS.pdb",
+        "lib/net7.0-windows10.0.19041.0/_._",
+        "skiasharp.views.3.0.0-preview.2.1.nupkg.sha512",
+        "skiasharp.views.nuspec"
+      ]
+    },
+    "System.Drawing.Common/9.0.0-preview.1.24081.2": {
+      "sha512": "zmP6qRu9oxbeYXHlwT//oQE56CNlsToBFg+9F8Lcrqsh6A7MVSppqBeCrIjtCFeOBxil2OS1DdPfv4WncIA8Pg==",
+      "type": "package",
+      "path": "system.drawing.common/9.0.0-preview.1.24081.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Private.Windows.Core.dll",
+        "lib/net8.0/System.Private.Windows.Core.xml",
+        "lib/net9.0/System.Drawing.Common.dll",
+        "lib/net9.0/System.Drawing.Common.pdb",
+        "lib/net9.0/System.Drawing.Common.xml",
+        "lib/net9.0/System.Private.Windows.Core.dll",
+        "lib/net9.0/System.Private.Windows.Core.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.drawing.common.9.0.0-preview.1.24081.2.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Newtonsoft.Json >= 13.0.3",
+      "SkiaSharp >= 3.0.0-preview.2.1",
+      "SkiaSharp.Views >= 3.0.0-preview.2.1",
+      "System.Drawing.Common >= 9.0.0-preview.1.24081.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ksenija\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ksenija\\Desktop\\pie-chart\\pie-chart\\pie-chart\\pie-chart.csproj",
+      "projectName": "pie-chart",
+      "projectPath": "C:\\Users\\Ksenija\\Desktop\\pie-chart\\pie-chart\\pie-chart\\pie-chart.csproj",
+      "packagesPath": "C:\\Users\\Ksenija\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ksenija\\Desktop\\pie-chart\\pie-chart\\pie-chart\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Ksenija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[3.0.0-preview.2.1, )"
+          },
+          "SkiaSharp.Views": {
+            "target": "Package",
+            "version": "[3.0.0-preview.2.1, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[9.0.0-preview.1.24081.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SkiaSharp.Views 3.0.0-preview.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SkiaSharp.Views",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

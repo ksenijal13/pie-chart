@@ -1,0 +1,128 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "pie-chart/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "SkiaSharp": "3.0.0-preview.2.1",
+          "SkiaSharp.Views": "3.0.0-preview.2.1",
+          "System.Drawing.Common": "9.0.0-preview.1.24081.2"
+        },
+        "runtime": {
+          "pie-chart.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "SkiaSharp/3.0.0-preview.2.1": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "3.0.0-preview.2.1",
+          "SkiaSharp.NativeAssets.macOS": "3.0.0-preview.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/SkiaSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/3.0.0-preview.2.1": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/3.0.0-preview.2.1": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.Views/3.0.0-preview.2.1": {},
+      "System.Drawing.Common/9.0.0-preview.1.24081.2": {
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.8102"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "pie-chart/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "SkiaSharp/3.0.0-preview.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6n+0t0p/nYMZqVv6hsZRv9R/sCZv6ELclRvGZ8MW6lm5WkAwG+Dtf9IfE6KZYtNp9FyXfLUjPl97dzuO8thMUw==",
+      "path": "skiasharp/3.0.0-preview.2.1",
+      "hashPath": "skiasharp.3.0.0-preview.2.1.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/3.0.0-preview.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kq7mbxLtlE/ElIBPrrnsfKFV0uDQX3Mrj5ea615ZzhCjzBMfawLs4fYF7B0qCG9DI6D070KuU/qc/JMX2okjbg==",
+      "path": "skiasharp.nativeassets.macos/3.0.0-preview.2.1",
+      "hashPath": "skiasharp.nativeassets.macos.3.0.0-preview.2.1.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/3.0.0-preview.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C7sgmY7P/VeLXyli81mCd5DA8O5cGAsSgD/y0CqTS0OTpqMcUBh5TCAMdG1eDgwG71zeBjPJK4upc0/WNoYjcw==",
+      "path": "skiasharp.nativeassets.win32/3.0.0-preview.2.1",
+      "hashPath": "skiasharp.nativeassets.win32.3.0.0-preview.2.1.nupkg.sha512"
+    },
+    "SkiaSharp.Views/3.0.0-preview.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+6fdh3jcXXOG01DDQAUiAqY2C3Tp6KWpWOAo8NnSN4eQ+ZfxjrRW1mbE99/E3lnhHbuFfxdDFgUFO/r0iAS6OA==",
+      "path": "skiasharp.views/3.0.0-preview.2.1",
+      "hashPath": "skiasharp.views.3.0.0-preview.2.1.nupkg.sha512"
+    },
+    "System.Drawing.Common/9.0.0-preview.1.24081.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zmP6qRu9oxbeYXHlwT//oQE56CNlsToBFg+9F8Lcrqsh6A7MVSppqBeCrIjtCFeOBxil2OS1DdPfv4WncIA8Pg==",
+      "path": "system.drawing.common/9.0.0-preview.1.24081.2",
+      "hashPath": "system.drawing.common.9.0.0-preview.1.24081.2.nupkg.sha512"
+    }
+  }
+}

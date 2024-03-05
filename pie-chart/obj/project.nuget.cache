@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "KVxJTYNBZLuJO/FmnpmBZ3ogFLbl7sbfsRciQB3vO2qk39AY0HPcbiRubB0PoQMlkhNacxE6Egn36r7mxTLiqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ksenija\\Desktop\\pie-chart\\pie-chart\\pie-chart\\pie-chart.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ksenija\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Ksenija\\.nuget\\packages\\skiasharp\\3.0.0-preview.2.1\\skiasharp.3.0.0-preview.2.1.nupkg.sha512",
+    "C:\\Users\\Ksenija\\.nuget\\packages\\skiasharp.nativeassets.macos\\3.0.0-preview.2.1\\skiasharp.nativeassets.macos.3.0.0-preview.2.1.nupkg.sha512",
+    "C:\\Users\\Ksenija\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.0.0-preview.2.1\\skiasharp.nativeassets.win32.3.0.0-preview.2.1.nupkg.sha512",
+    "C:\\Users\\Ksenija\\.nuget\\packages\\skiasharp.views\\3.0.0-preview.2.1\\skiasharp.views.3.0.0-preview.2.1.nupkg.sha512",
+    "C:\\Users\\Ksenija\\.nuget\\packages\\system.drawing.common\\9.0.0-preview.1.24081.2\\system.drawing.common.9.0.0-preview.1.24081.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SkiaSharp.Views 3.0.0-preview.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SkiaSharp.Views",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
